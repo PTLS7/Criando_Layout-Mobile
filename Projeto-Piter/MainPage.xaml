@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Projeto_Piter.MainPage">
+
+    <Grid ColumnSpacing="10" Margin="20,0,20,0" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Image Grid.Row="0" Grid.Column="0" Source="immes_menu.png" HeightRequest="30"/>
+        <Label Grid.Row="0" Grid.Column="1" Text="Immes" FontSize="30" HorizontalOptions="Center" VerticalOptions="Center" TextColor="CornflowerBlue"/>
+        <Image Grid.Row="0" Grid.Column="2" Source="immes_carrinho.png"/>
+
+        <Image Grid.Row="2" Grid.Column="0" Source="immes_aplicativo.png"/>
+        <Border Margin="0,5,20,5" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2" Stroke="Transparent" BackgroundColor="#02C6E3">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20"/>
+            </Border.StrokeShape>
+            <Label  Text="Pesquisar..." TextColor="White" Padding="10" Margin="10,0,0,0" ></Label>
+        </Border>
+
+        <Border Margin="0,5,0,5" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" Stroke="Transparent" BackgroundColor="CornflowerBlue">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20"/>
+            </Border.StrokeShape>
+            <Label  Text="informática" Padding="10" TextColor="white" Margin="10,0,0,0"></Label>
+        </Border>
+
+       
+        <Image Grid.Row="6" Grid.Column="0" Source="immes_camisetapreta.png" BackgroundColor="LightBlue" />
+        <Label Grid.Row="7" Grid.Column="0" Text="Camiseta Modelo 01" TextColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Image Grid.Row="6" Grid.Column="1" Source="immes_camisetaazul.png" BackgroundColor="LightBlue"/>
+        <Label Grid.Row="7" Grid.Column="1" Text="Camiseta Modelo 02" TextColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Image Grid.Row="6" Grid.Column="2" Source="immes_camisetabranca.png" BackgroundColor="LightBlue" />
+        <Label Grid.Row="7" Grid.Column="2" Text="Camiseta Modelo 03" TextColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+
+        <Border Margin="0,5,0,5" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="3" Stroke="Transparent" BackgroundColor="CornflowerBlue">
+            <Border.StrokeShape>
+                <RoundRectangle CornerRadius="20"/>
+            </Border.StrokeShape>
+            <Label  Text="Administração" Padding="10" TextColor="white" Margin="10,0,0,0"></Label>
+        </Border>
+
+        <Image Grid.Row="11" Grid.Column="0" Source="immes_calcapreta.png" BackgroundColor="LightBlue"/>
+        <Label Grid.Row="12" Grid.Column="0" Text="Calça Modelo 01" TextColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Image Grid.Row="11" Grid.Column="1" Source="immes_calcabranca.png" BackgroundColor="LightBlue"/>
+        <Label Grid.Row="12" Grid.Column="1" Text="Calça Modelo 02" TextColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Image Grid.Row="11" Grid.Column="2" Source="immes_calcaazul.png" BackgroundColor="LightBlue" />
+        <Label Grid.Row="12" Grid.Column="2" Text="Calça Modelo 03" TextColor="CornflowerBlue" HorizontalOptions="Center" VerticalOptions="Center"/>
+
+        <Border BackgroundColor="CornflowerBlue" Grid.Row="14" Grid.Column="0" Grid.ColumnSpan="3"></Border>
+        <Button Text="Cancelar" Grid.Row="14" Grid.Column="0" BackgroundColor="CornflowerBlue" TextColor="white"/>
+        <Button Text="Comprar" Grid.Row="14" Grid.Column="2" BackgroundColor="CornflowerBlue" TextColor="white"/>
+
+       
+
+
+
+
+
+
+
+    </Grid>
+</ContentPage>
